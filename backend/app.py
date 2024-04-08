@@ -16,7 +16,7 @@ rooms_collection = db.rooms
 
 @app.route("/")
 def home(): 
-    return jsonify(f"Server running on port {PORT}")
+    return jsonify(f"Server running on port 5000")
 
 @app.route("/rooms/get")
 def rooms():
